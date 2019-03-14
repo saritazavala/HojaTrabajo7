@@ -7,10 +7,10 @@ Binary Tree: Diccionario
 
 public class Node {
 
-    String ingles;
-    String espaniol;
-    Node izquierda;
-    Node derecha;
+    private String ingles;
+    private String espaniol;
+    private Node izquierda;
+    private Node derecha;
 
     //Constructor
 
@@ -47,5 +47,5 @@ public class Node {
         this.espaniol = espaniol;
     }
 
-    
+
 }

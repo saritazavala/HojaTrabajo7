@@ -6,6 +6,7 @@ Binary Tree: Diccionario
 */
 public class BinaryTree {
 
+    Node root;
 
 }
 
