@@ -7,8 +7,8 @@ Binary Tree: Diccionario
 
 public class Node {
 
-    private String ingles;
-    private String espaniol;
+    private String keyingles;
+    private String valueespaniol;
     private Node izquierda;
     private Node derecha;
 
@@ -17,34 +17,34 @@ public class Node {
     public  Node(){
         derecha = null;
         izquierda = null;
-        ingles = "";
-        espaniol = "";
+        keyingles = "";
+        valueespaniol = "";
     }
 
     //Constructor x2
 
 
-    public Node(String ingles, String espaniol) {
-        this.ingles = ingles;
-        this.espaniol = espaniol;
+    public Node(String keyingles, String valueespaniol) {
+        this.keyingles = keyingles;
+        this.valueespaniol = valueespaniol;
         derecha = null;
         izquierda = null;
     }
 
-    public String getIngles() {
-        return ingles;
+    public String getKeyingles() {
+        return keyingles;
     }
 
-    public void setIngles(String ingles) {
-        this.ingles = ingles;
+    public void setKeyingles(String keyingles) {
+        this.keyingles = keyingles;
     }
 
-    public String getEspaniol() {
-        return espaniol;
+    public String getValueespaniol() {
+        return valueespaniol;
     }
 
-    public void setEspaniol(String espaniol) {
-        this.espaniol = espaniol;
+    public void setValueespaniol(String valueespaniol) {
+        this.valueespaniol = valueespaniol;
     }
 
 

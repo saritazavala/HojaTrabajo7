@@ -8,5 +8,15 @@ public class BinaryTree {
 
     Node root;
 
+    //Construcotres
+
+    public BinaryTree(){
+        root = null;
+    }
+
+
+
+
+
 }
 
