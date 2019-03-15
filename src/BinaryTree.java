@@ -4,15 +4,18 @@ Hoja de Trabajo 7
 Estructura de Datos
 Binary Tree: Diccionario
 */
-public class BinaryTree {
+public class BinaryTree<E> {
 
     Node root;
 
-    //Construcotres
+    //Constructores
 
     public BinaryTree(){
         root = null;
     }
+
+
+
 
 
 
