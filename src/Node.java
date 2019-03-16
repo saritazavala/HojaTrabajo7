@@ -5,12 +5,12 @@ Estructura de Datos
 Binary Tree: Diccionario
 */
 
-public class Node {
+public class Node<E> {
 
     private String keyingles;
     private String valueespaniol;
-    private Node izquierda;
-    private Node derecha;
+    private Node<E> izquierda;
+    private Node<E> derecha;
 
     //Constructor
 
@@ -23,12 +23,11 @@ public class Node {
 
     //Constructor x2
 
-
-    public Node(String keyingles, String valueespaniol) {
+    public Node(String keyingles, String valueespaniol, Node<E> izquierda, Node<E> derecha) {
         this.keyingles = keyingles;
         this.valueespaniol = valueespaniol;
-        derecha = null;
-        izquierda = null;
+        this.izquierda = izquierda;
+        this.derecha = derecha;
     }
 
     public String getKeyingles() {
@@ -47,5 +46,19 @@ public class Node {
         this.valueespaniol = valueespaniol;
     }
 
+    public Node<E> getIzquierda() {
+        return izquierda;
+    }
 
+    public void setIzquierda(Node<E> izquierda) {
+        this.izquierda = izquierda;
+    }
+
+    public Node<E> getDerecha() {
+        return derecha;
+    }
+
+    public void setDerecha(Node<E> derecha) {
+        this.derecha = derecha;
+    }
 }
