@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fef4030a-bf0b-4ae3-94a7-5c1acf1a13b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/Association.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Association.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,9 +65,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Association.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="27" />
+            <state relative-caret-position="236">
+              <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
               <folding>
+                <element signature="e#0#1361#0" expanded="true" />
                 <element signature="e#378#379#0" expanded="true" />
                 <element signature="e#408#409#0" expanded="true" />
                 <element signature="e#433#434#0" expanded="true" />
@@ -78,8 +77,10 @@
                 <element signature="e#514#515#0" expanded="true" />
                 <element signature="e#551#552#0" expanded="true" />
                 <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#1058#1059#0" expanded="true" />
+                <element signature="e#1106#1107#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,7 +156,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552757611018" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552758553369" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -377,9 +378,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Association.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="27" />
+        <state relative-caret-position="236">
+          <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
           <folding>
+            <element signature="e#0#1361#0" expanded="true" />
             <element signature="e#378#379#0" expanded="true" />
             <element signature="e#408#409#0" expanded="true" />
             <element signature="e#433#434#0" expanded="true" />
@@ -388,8 +390,10 @@
             <element signature="e#514#515#0" expanded="true" />
             <element signature="e#551#552#0" expanded="true" />
             <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
           </folding>
         </state>
       </provider>

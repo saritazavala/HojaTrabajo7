@@ -5,9 +5,14 @@ Estructura de Datos
 Binary Tree: Diccionario
 */
 
-public class Association<K,V> implements Comparable<Association<K,V>> {
 
+//Codigo referenciado de este link
+//www.cs.pomona.edu/classes/cs062/structure5/Association.java
+//Lo cambié y me basé para recordar la estructura
+//http://www.cs.williams.edu/~jeannie/cs136/javadoc/structure5/structure5/ComparableAssociation.html
+//https://stackoverflow.com/questions/52641366/how-to-make-an-object-of-association-comparable-by-only-one-generic-parameter-ty
 
+public class Association<K extends Comparable<K>, V> implements Comparable<Association<K, V>> {
 
     private K key;
     private V value;
@@ -39,15 +44,22 @@ public class Association<K,V> implements Comparable<Association<K,V>> {
         this.value = value;
     }
 
+    //Metodos de Association
+
     public boolean equals(Object other)
     {
-        Association otherAssoc = (Association)other;
+        Association<K,V> otherAssoc = (Association<K,V>)other;
         return getKey().equals(otherAssoc.getKey());
+    }
+
+    public int hashCode()
+    {
+        return getKey().hashCode();
     }
 
 
     @Override
-    public int compareTo(Association<K, V> kvAssociation) {
-        return 0;
+    public int compareTo(Association<K, V> o) {
+        return key.compareTo(o.getKey());
     }
 }
