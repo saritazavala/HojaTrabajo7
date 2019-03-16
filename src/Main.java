@@ -11,6 +11,7 @@ public class Main {
 
     public static void main(String args[]){
 
+        //Variables
         Scanner teclado = new Scanner(System.in);
         System.out.println("Ingrese la direccion de su .txt");
         String doc = teclado.nextLine();
@@ -19,27 +20,42 @@ public class Main {
         BufferedReader file2 = null;
         boolean leeer = false;
 
-        try {
-            fileR = new FileReader(file);
-            file2 = new BufferedReader(fileR);
-            leeer = true;
+        System.out.println("============Diccionario ==========");
+        System.out.println("Ingrese la opcion deseada");
+        System.out.println("1. Traducir el documento .txt");
+        System.out.println("2. Mostrar el diccionario en InOrder");
 
 
-        } catch (FileNotFoundException | java.lang.NullPointerException e) {
-            System.out.println("No se encontro el archivo "+file.getName());
-        }
+        String seleccion = teclado.nextLine();
 
-        if (leeer==true) {
+        if (seleccion=="1"){
             try {
-                String lines = "";
-                while ((lines = file2.readLine()) != null) {
-                    System.out.println(lines);
-                }
-            } catch (IOException | java.lang.NullPointerException e) {
-                e.printStackTrace();
+                fileR = new FileReader(file);
+                file2 = new BufferedReader(fileR);
+                leeer = true;
 
+
+            } catch (FileNotFoundException | java.lang.NullPointerException e) {
+                System.out.println("No se encontro el archivo "+file.getName());
             }
+
+            if (leeer==true) {
+                try {
+                    String lines = "";
+                    while ((lines = file2.readLine()) != null) {
+                        System.out.println(lines);
+                    }
+                } catch (IOException | java.lang.NullPointerException e) {
+                    e.printStackTrace();
+
+                }
+            }
+
         }
+
+
+
+
 
 
     }

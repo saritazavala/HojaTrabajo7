@@ -4,7 +4,7 @@ Hoja de Trabajo 7
 Estructura de Datos
 Binary Tree: Diccionario
 */
-public class BinaryTree<E> implements Comparable<E> {
+public class BinaryTree<E extends Comparable<E>>{
 
     Node<E> root;
 
@@ -27,17 +27,16 @@ public class BinaryTree<E> implements Comparable<E> {
     }
 
 
+    //METODOS
 
-    @Override
-    public int compareTo(E e) {
-        return 0;
+    //Is Empty :v el primerito jaja
+
+    public boolean isEmpty(){
+        return  root == null;
     }
 
 
-    //METODOS
-
-
     //Insert Element
-    
+
 }
 
