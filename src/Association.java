@@ -5,7 +5,7 @@ Estructura de Datos
 Binary Tree: Diccionario
 */
 
-public class Association {
+public class Association <K,V>{
     private Association izquierda;
     private Association derecha;
     private String espaniol;
