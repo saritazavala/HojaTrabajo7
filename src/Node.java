@@ -5,10 +5,12 @@ Estructura de Datos
 Binary Tree: Diccionario
 */
 
+//Referencias
+//Codigo basado en esta página
+//https://www.baeldung.com/java-binary-tree
 public class Node<E> {
 
-    private String keyingles;
-    private String valueespaniol;
+
     private Node<E> izquierda;
     private Node<E> derecha;
 
@@ -17,34 +19,18 @@ public class Node<E> {
     public  Node(){
         derecha = null;
         izquierda = null;
-        keyingles = "";
-        valueespaniol = "";
+
     }
 
     //Constructor x2
 
-    public Node(String keyingles, String valueespaniol, Node<E> izquierda, Node<E> derecha) {
-        this.keyingles = keyingles;
-        this.valueespaniol = valueespaniol;
+    public Node(Node<E> izquierda, Node<E> derecha) {
+
         this.izquierda = izquierda;
         this.derecha = derecha;
     }
 
-    public String getKeyingles() {
-        return keyingles;
-    }
 
-    public void setKeyingles(String keyingles) {
-        this.keyingles = keyingles;
-    }
-
-    public String getValueespaniol() {
-        return valueespaniol;
-    }
-
-    public void setValueespaniol(String valueespaniol) {
-        this.valueespaniol = valueespaniol;
-    }
 
     public Node<E> getIzquierda() {
         return izquierda;

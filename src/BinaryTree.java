@@ -6,7 +6,7 @@ Binary Tree: Diccionario
 */
 public class BinaryTree<E> {
 
-    Node root;
+    Node<E> root;
 
     //Constructores
 
@@ -14,20 +14,16 @@ public class BinaryTree<E> {
         root = null;
     }
 
+    public BinaryTree(Node<E> root) {
+        this.root = root;
+    }
 
+    public Node<E> getRoot() {
+        return root;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public void setRoot(Node<E> root) {
+        this.root = root;
+    }
 }
 
