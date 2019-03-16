@@ -8,20 +8,23 @@ Binary Tree: Diccionario
 //Referencias
 //Codigo basado en esta página
 //https://www.baeldung.com/java-binary-tree
+//BinaryTree.java documento subido por Ingeniero Douglas
 public class Node<E> {
 
 
 
     Node<E> derecha;
     Node<E> izquierda;
-    E coso;
+    E e;
 
 
     public Node(E e){
+        this.e = e;
         derecha = null;
         izquierda = null;
-        e = coso;
+
     }
+
 
     public Node<E> getDerecha() {
         return derecha;
@@ -39,11 +42,11 @@ public class Node<E> {
         this.izquierda = izquierda;
     }
 
-    public E getCoso() {
-        return coso;
+    public E getE() {
+        return e;
     }
 
-    public void setCoso(E coso) {
-        this.coso = coso;
+    public void setE(E e) {
+        this.e = e;
     }
 }
