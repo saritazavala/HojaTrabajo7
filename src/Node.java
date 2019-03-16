@@ -11,26 +11,24 @@ Binary Tree: Diccionario
 public class Node<E> {
 
 
-    private Node<E> izquierda;
-    private Node<E> derecha;
+    Node<E> derecha;
+    Node<E> izquierda;
+    E coso;
 
-    //Constructor
 
-    public  Node(){
+    public Node(E e){
         derecha = null;
         izquierda = null;
-
+        e = coso;
     }
 
-    //Constructor x2
+    public Node<E> getDerecha() {
+        return derecha;
+    }
 
-    public Node(Node<E> izquierda, Node<E> derecha) {
-
-        this.izquierda = izquierda;
+    public void setDerecha(Node<E> derecha) {
         this.derecha = derecha;
     }
-
-
 
     public Node<E> getIzquierda() {
         return izquierda;
@@ -40,11 +38,11 @@ public class Node<E> {
         this.izquierda = izquierda;
     }
 
-    public Node<E> getDerecha() {
-        return derecha;
+    public E getCoso() {
+        return coso;
     }
 
-    public void setDerecha(Node<E> derecha) {
-        this.derecha = derecha;
+    public void setCoso(E coso) {
+        this.coso = coso;
     }
 }
