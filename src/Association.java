@@ -5,7 +5,7 @@ Estructura de Datos
 Binary Tree: Diccionario
 */
 
-public class Association <K,V>{
+public class Association<K,V> implements Comparable<String>{
     private Association izquierda;
     private Association derecha;
     private String espaniol;
@@ -40,5 +40,10 @@ public class Association <K,V>{
 
     public void setIngles(String ingles) {
         this.ingles = ingles;
+    }
+
+    @Override
+    public int compareTo(String s) {
+        return 0;
     }
 }
