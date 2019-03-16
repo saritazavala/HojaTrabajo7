@@ -11,6 +11,7 @@ Binary Tree: Diccionario
 public class Node<E> {
 
 
+
     Node<E> derecha;
     Node<E> izquierda;
     E coso;
