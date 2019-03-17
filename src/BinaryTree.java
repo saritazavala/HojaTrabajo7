@@ -89,11 +89,6 @@ public class BinaryTree<E extends Comparable<E>>{
         return containsNodeRecursive(root, value);
     }
 
-    
-
-
-
-
 
 }
 

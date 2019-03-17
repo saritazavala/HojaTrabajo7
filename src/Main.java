@@ -14,6 +14,7 @@ public class Main {
         //Variables
         Scanner teclado = new Scanner(System.in);
         System.out.println("Ingrese la direccion de su .txt");
+        BinaryTree<Association<String, String>> tree = new BinaryTree<>();
         String doc = teclado.nextLine();
         File file = new File(doc);
         FileReader fileR = null;
@@ -21,36 +22,21 @@ public class Main {
         boolean leeer = false;
 
 
+        String fichero = doc;
+        try {
+            FileReader fr = new FileReader(fichero);
+            BufferedReader br = new BufferedReader(fr);
 
-            try {
-                fileR = new FileReader(file);
-                file2 = new BufferedReader(fileR);
-                leeer = true;
+            String linea;
+            while((linea = br.readLine()) != null)
+                System.out.println(linea);
 
-
-            } catch (FileNotFoundException | java.lang.NullPointerException e) {
-                System.out.println("No se encontro el archivo "+file.getName());
-            }
-
-            if (leeer==true) {
-                try {
-                    String lines = "";
-                    while ((lines = file2.readLine()) != null) {
-                        System.out.println(lines);
-                    }
-                } catch (IOException | java.lang.NullPointerException e) {
-                    e.printStackTrace();
-
-                }
-            }
-
+            fr.close();
+        }
+        catch(Exception e) {
+            System.out.println("Excepcion leyendo fichero "+ fichero + ": " + e);
         }
 
 
-
-
-
-
-
-
+    }
 }
