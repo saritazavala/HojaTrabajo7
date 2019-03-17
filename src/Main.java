@@ -20,15 +20,8 @@ public class Main {
         BufferedReader file2 = null;
         boolean leeer = false;
 
-        System.out.println("============Diccionario ==========");
-        System.out.println("Ingrese la opcion deseada");
-        System.out.println("1. Traducir el documento .txt");
-        System.out.println("2. Mostrar el diccionario en InOrder");
 
 
-        String seleccion = teclado.nextLine();
-
-        if (seleccion=="1"){
             try {
                 fileR = new FileReader(file);
                 file2 = new BufferedReader(fileR);
@@ -58,6 +51,6 @@ public class Main {
 
 
 
-    }
+
 
 }

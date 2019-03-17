@@ -7,6 +7,7 @@ Binary Tree: Diccionario
 
 //https://algs4.cs.princeton.edu/32bst/BST.java.html
 //https://www.geeksforgeeks.org/insert-a-node-in-binary-search-tree-iteratively/
+//https://www.baeldung.com/java-binary-tree
 
 public class BinaryTree<E extends Comparable<E>>{
 
@@ -43,11 +44,11 @@ public class BinaryTree<E extends Comparable<E>>{
 
 
 
-    public void traverseInOrder(Node node) {
-        if (node != null) {
-            traverseInOrder(node.derecha);
-            System.out.print(" " + node.e);
-            traverseInOrder(node.derecha);
+    public void mostrarInorder(Node<E> nodo){
+        if(nodo!= null){
+            mostrarInorder(nodo.izquierda);
+            System.out.print(nodo.e+" ");
+            mostrarInorder(nodo.derecha);
         }
     }
 
@@ -88,26 +89,7 @@ public class BinaryTree<E extends Comparable<E>>{
         return containsNodeRecursive(root, value);
     }
 
-    private Node deleteRecursive(Node<E> current, E value) {
-        if (current == null) {
-            return null;
-        }
-
-        if (value == current.e) {
-            // Node to delete found
-            // ... code to delete the node will go here
-        }
-        if (value.compareTo(current.e) < 0) {
-            current.izquierda = deleteRecursive(current.izquierda, value);
-            return current;
-        }
-        current.derecha = deleteRecursive(current.derecha, value);
-        return current;
-    }
-
-    public void delete(E value) {
-        root = deleteRecursive(root, value);
-    }
+    
 
 
 
