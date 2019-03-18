@@ -9,38 +9,45 @@ import java.io.*;
 import java.util.*;
 public class Main {
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
 
         //Variables
         Scanner teclado = new Scanner(System.in);
-        Node<Association<String,String>> node;
         BinaryTree<Association<String, String>> tree = new BinaryTree<>();
-        String doc = teclado.nextLine();
-        String espaniol;
-        String ingles;
-        File file = new File(doc);
-        FileReader fileR = null;
-        BufferedReader file2 = null;
-        boolean leeer = false;
+        boolean hola = true;
 
 
-        String fichero = doc;
+        while (hola ==true) {
+            System.out.println("--------Menu---------");
+            System.out.println("Opciones:");
+            System.out.println("1. Mostrar ordenado el diccionario");
+            System.out.println("2. Traducir txt");
+            System.out.println("3. Salir");
+            System.out.println("Ingrese la opcion deseada");
 
 
-        try {
-            FileReader fr = new FileReader(fichero);
-            BufferedReader br = new BufferedReader(fr);
+            try {
+                int opcin = teclado.nextInt();
+                teclado.nextLine();
+                if (opcin == 1) {
+                    tree.mostrarInorder(tree.root);
+                    System.out.println("holi");
+                } else if (opcin == 2) {
 
-            String linea;
-            while((linea = br.readLine()) != null)
-                System.out.println(linea);
+                } else if (opcin == 3) {
+                    hola = false;
+                } else {
+                    System.out.println("Ingrese opcion válida");
+                }
+            } catch (InputMismatchException e){
+                System.out.println("Ingrese una opcion disponible");
 
-            fr.close();
+
+            }
+
+            }
+
+
         }
-        catch(Exception e) {
-            System.out.println("Excepcion leyendo fichero "+ fichero + ": " + e);
-        }
-
-
     }
-}
+
