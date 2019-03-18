@@ -24,28 +24,29 @@ public class Main {
             System.out.println("3. Salir");
             System.out.println("Ingrese la opcion deseada");
 
-
-            try {
-                String seleccion = teclado.nextLine();
-                if (seleccion.equals("1")) {
-                    tree.mostrarInorder(tree.root);
-                    System.out.println("holi");
-                } else if (seleccion.equals("2")) {
-
-                } else if (seleccion.equals("3")) {
-                    break;
-                } else {
-                    System.out.println("Ingrese opcion válida");
-                }
-            } catch (InputMismatchException e){
-                System.out.println("Ingrese una opcion disponible");
+            
 
 
+            String seleccion = teclado.nextLine();
+            if (seleccion.equals("1")) {
+                tree.mostrarInorder(tree.root);
+                System.out.println("holi");
+            } else if (seleccion.equals("2")) {
+
+            } else if (seleccion.equals("3")) {
+                break;
+            } else {
+                System.out.println("Ingrese opcion válida");
             }
 
-            }
+
 
 
         }
+
     }
+
+
+}
+
 
