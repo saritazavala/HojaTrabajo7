@@ -13,9 +13,11 @@ public class Main {
 
         //Variables
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Ingrese la direccion de su .txt");
+        Node<Association<String,String>> node;
         BinaryTree<Association<String, String>> tree = new BinaryTree<>();
         String doc = teclado.nextLine();
+        String espaniol;
+        String ingles;
         File file = new File(doc);
         FileReader fileR = null;
         BufferedReader file2 = null;
@@ -23,6 +25,8 @@ public class Main {
 
 
         String fichero = doc;
+
+
         try {
             FileReader fr = new FileReader(fichero);
             BufferedReader br = new BufferedReader(fr);
