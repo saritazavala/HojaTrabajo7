@@ -14,10 +14,9 @@ public class Main {
         //Variables
         Scanner teclado = new Scanner(System.in);
         BinaryTree<Association<String, String>> tree = new BinaryTree<>();
-        boolean hola = true;
 
 
-        while (hola ==true) {
+        while (true) {
             System.out.println("--------Menu---------");
             System.out.println("Opciones:");
             System.out.println("1. Mostrar ordenado el diccionario");
@@ -27,15 +26,14 @@ public class Main {
 
 
             try {
-                int opcin = teclado.nextInt();
-                teclado.nextLine();
-                if (opcin == 1) {
+                String seleccion = teclado.nextLine();
+                if (seleccion.equals("1")) {
                     tree.mostrarInorder(tree.root);
                     System.out.println("holi");
-                } else if (opcin == 2) {
+                } else if (seleccion.equals("2")) {
 
-                } else if (opcin == 3) {
-                    hola = false;
+                } else if (seleccion.equals("3")) {
+                    break;
                 } else {
                     System.out.println("Ingrese opcion válida");
                 }
