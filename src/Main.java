@@ -24,7 +24,7 @@ public class Main {
             System.out.println("3. Salir");
             System.out.println("Ingrese la opcion deseada");
 
-            
+
 
 
             String seleccion = teclado.nextLine();
