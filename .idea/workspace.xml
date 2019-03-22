@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fef4030a-bf0b-4ae3-94a7-5c1acf1a13b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tests/TestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diccionario2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Diccionario2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HojaTrabajo7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HojaTrabajo7.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diccionario.txt" beforeDir="false" afterPath="$PROJECT_DIR$/diccionario.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HojaTrabajo7/Association.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HojaTrabajo7/Association.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HojaTrabajo7/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HojaTrabajo7/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HojaTrabajo7/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HojaTrabajo7/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HojaTrabajo7/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HojaTrabajo7/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Association.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Association.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diccionario2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diccionario2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diccionario.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/diccionario.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,49 +30,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#831#0" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="71" column="14" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Association.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-              <folding>
-                <element signature="e#1213#1214#0" expanded="true" />
-                <element signature="e#1255#1256#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="43" />
+            <state relative-caret-position="952">
+              <caret line="56" column="71" lean-forward="true" selection-start-line="56" selection-start-column="71" selection-end-line="56" selection-end-column="71" />
               <folding>
+                <element signature="e#0#2697#0" expanded="true" />
                 <element signature="imports" expanded="true" />
+                <element signature="e#279#287#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,8 +50,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>root</find>
+      <find>raiz</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -80,18 +67,31 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Node.java" />
+        <option value="$PROJECT_DIR$/diccionario.txt" />
+        <option value="$PROJECT_DIR$/src/Diccionario2.txt" />
+        <option value="$PROJECT_DIR$/src/diccionario.txt" />
+        <option value="$PROJECT_DIR$/Diccionario2.txt" />
         <option value="$PROJECT_DIR$/src/Association.java" />
+        <option value="$PROJECT_DIR$/src/Node.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTreeTest.java" />
+        <option value="$PROJECT_DIR$/Tests/Tests.java" />
+        <option value="$PROJECT_DIR$/Tests/TestsTest.java" />
+        <option value="$PROJECT_DIR$/Tests/TestTest.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="683" />
+    <option name="width" value="683" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -108,18 +108,46 @@
               <item name="Hoja7" type="b2602c69:ProjectViewProjectNode" />
               <item name="HojaTrabajo7" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Hoja7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HojaTrabajo7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hoja7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HojaTrabajo7" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552878629263" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProyectoEstructuras/Interprete" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553226536492" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -133,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="HojaTrabajo7" />
@@ -141,9 +169,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HojaTrabajo7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTest.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HojaTrabajo7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTest" />
+      <option name="METHOD_NAME" value="Test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestTest" />
+        <item itemvalue="JUnit.TestTest.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +224,38 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestTest_Test1 - 2019.03.21 at 21h 12m 33s.xml">
+      <configuration name="TestTest.Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTest_Test1 - 2019.03.21 at 21h 23m 30s.xml">
+      <configuration name="TestTest.Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTest_Test1 - 2019.03.21 at 21h 24m 08s.xml">
+      <configuration name="TestTest.Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTest_Test1 - 2019.03.21 at 21h 24m 44s.xml">
+      <configuration name="TestTest.Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTest_Test1 - 2019.03.21 at 21h 25m 06s.xml">
+      <configuration name="TestTest.Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTest_Test1 - 2019.03.21 at 21h 25m 31s.xml">
+      <configuration name="TestTest.Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTest_Test1 - 2019.03.21 at 21h 27m 54s.xml">
+      <configuration name="TestTest.Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTest - 2019.03.21 at 21h 28m 01s.xml">
+      <configuration name="TestTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTest - 2019.03.21 at 21h 28m 10s.xml">
+      <configuration name="TestTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTest - 2019.03.21 at 21h 29m 47s.xml">
+      <configuration name="TestTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -185,8 +266,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.13691376" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.24962178" />
@@ -197,8 +277,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.50121653" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.04901961" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.09313726" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.09150327" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
@@ -206,19 +286,19 @@
       <window_info anchor="bottom" id="GitHub Pull Requests" order="8" sideWeight="0.49848714" weight="0.32843137" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.32843137" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4977307" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4977307" weight="0.43137255" />
       <window_info anchor="bottom" id="JProfiler" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.022692889" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.13691376" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" weight="0.13691376" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.24962178" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -227,25 +307,25 @@
       <window_info id="Favorites" order="6" sideWeight="0.50121653" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.10130719" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.09150327" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4977307" weight="0.32843137" />
       <window_info anchor="bottom" id="GitHub Pull Requests" order="8" sideWeight="0.49848714" weight="0.32843137" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.32843137" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4977307" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4977307" weight="0.43137255" />
       <window_info anchor="bottom" id="JProfiler" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.022692889" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,29 +392,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/Diccionario2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Diccionario2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diccionario.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diccionario.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/ne;.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
-            <element signature="e#0#831#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree.java">
+    <entry file="file://$PROJECT_DIR$/Tests/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="71" column="14" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/TestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#1415#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Association.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        <state relative-caret-position="133">
+          <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="127" />
           <folding>
             <element signature="e#1213#1214#0" expanded="true" />
             <element signature="e#1255#1256#0" expanded="true" />
@@ -342,12 +482,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="114" column="15" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#2807#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="43" />
+        <state relative-caret-position="952">
+          <caret line="56" column="71" lean-forward="true" selection-start-line="56" selection-start-column="71" selection-end-line="56" selection-end-column="71" />
           <folding>
+            <element signature="e#0#2697#0" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#279#287#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -355,9 +515,80 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>HojaTrabajo7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

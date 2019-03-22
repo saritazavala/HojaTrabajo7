@@ -5,21 +5,28 @@ Estructura de Datos
 Binary Tree: Diccionario
 */
 
+//ESTOS METODOS FUERON TOTALMENTE BASADOS EN LAS SIGUIENTES PAGINAS
+////https://www.baeldung.com/java-binary-tree PAGINA PRINCIPAL.
+//https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
 //https://algs4.cs.princeton.edu/32bst/BST.java.html
 //https://www.geeksforgeeks.org/insert-a-node-in-binary-search-tree-iteratively/
 //https://www.baeldung.com/java-binary-tree
 
-public class BinaryTree<E extends Comparable<E>>{
+/**
+ * BinaryTreeClass
+ * @param <E>
+ */
+public class BinaryTree<E extends Comparable<E>> {
 
-    Node<E> root;
+    Node<E> root; //Atributo clase Nodo
 
     //Constructores
 
-    public BinaryTree(){
+    public BinaryTree() { //constructor
         root = null;
     }
 
-    public BinaryTree(Node<E> root) {
+    public BinaryTree(Node<E> root) { //Constructor x2
         this.root = root;
     }
 
@@ -35,60 +42,81 @@ public class BinaryTree<E extends Comparable<E>>{
 
     //METODOS
 
-    //Is Empty :v el primerito jaja
-
-    public boolean isEmpty(){
-        return  root == null;
+    //Clsico metodo que devuelve si esta vacio o no
+    public boolean isEmpty() {
+        return (root == null);
     }
 
-
-
-
-    public void mostrarInorder(Node<E> nodo){
-        if(nodo!= null){
+    //Codigo prviamente referenciaso. Ordeamiento InOrder
+    public void mostrarInorder(Node<E> nodo) {
+        if (nodo != null) {
             mostrarInorder(nodo.izquierda);
-            System.out.print(nodo.e+" ");
+            System.out.print(nodo.e + " ");
             mostrarInorder(nodo.derecha);
+            //nodo.izquierda.getE();
+        }
+    }
+    //Codigo prviamente referenciaso. Metodo para buscar cierto elemeto
+    public E containsRecursive(E value){
+        Node<E> current = root;
+        while(current!=null){
+            if(current.e.equals(value)){
+                return current.e;
+            }else
+            if(current.e.compareTo(value)>0){
+                current = current.izquierda;
+            }else{
+                current = current.derecha;
+            }
+        }
+        return null;
+    }
+
+    //Codigo prviamente referenciaso. Extra para orden Pre
+    public void traversePreOrder(Node node) {
+        if (node != null) {
+            System.out.print(" " + node.e);
+            traversePreOrder(node.izquierda);
+            traversePreOrder(node.derecha);
         }
     }
 
-    private Node addRecursive(Node<E> current, E value) {
-        if (current == null) {
-            return new Node(value);
+    //Codigo prviamente referenciaso. Metodo para añadir
+    public void addRecursive(E current) {
+        Node<E> temp = new Node<E>(current);
+        if (root == null) {
+            root = temp;
+            return;
         }
 
-        if (value.compareTo(current.e) < 0) {
-            current.izquierda = addRecursive(current.izquierda, value);
-        } else if (value.compareTo(current.e)>0) {
-            current.derecha = addRecursive(current.derecha, value);
-        } else {
-            // value already exists
-            return current;
+        Node<E> actual = root;
+        Node<E> otro = null;
+
+        while (true) {
+            otro = actual;
+            if (current.compareTo(actual.e) < 0) {
+                actual = actual.izquierda;
+                if (actual == null) {
+                    otro.izquierda = temp;
+                    return;
+                }
+            } else {
+                actual = actual.derecha;
+                if (actual == null) {
+                    otro.derecha = temp;
+                    return;
+                }
+            }
         }
-
-        return current;
-    }
-
-    public void add(E value) {
-        root = addRecursive(root, value);
-    }
-
-    private boolean containsNodeRecursive(Node<E> current, E value) {
-        if (current == null) {
-            return false;
-        }
-        if (value == current.e) {
-            return true;
-        }
-        return (value.compareTo(current.e) < 0)
-                ? containsNodeRecursive(current.izquierda, value)
-                : containsNodeRecursive(current.derecha, value);
-    }
-
-    public boolean containsNode(E value) {
-        return containsNodeRecursive(root, value);
     }
 
 
+
+    //To String
+    @Override
+    public String toString() {
+        return "BinaryTree{" +
+                "root=" + root +
+                '}';
+    }
 }
-
