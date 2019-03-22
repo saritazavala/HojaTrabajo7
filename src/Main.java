@@ -5,6 +5,17 @@ Estructura de Datos
 Binary Tree: Diccionario
 */
 
+
+/* Referencias
+
+****************Tutorias recibidas durrante las ultimas semanas*******************
+http://www.dit.upm.es/~pepe/doc/adsw/tema1/023_diccionarios.pdf
+https://www.lawebdelprogramador.com/codigo/Java/2257-Arboles-binarios-de-busqueda.html
+https://intercambiosos.org/showthread.php?t=26253
+https://users.dcc.uchile.cl/~bebustos/apuntes/cc3001/Diccionario/
+https://www.youtube.com/watch?v=zYRV5mVhlaE
+Libro de texto de la clase de Java
+* */
 import java.io.*;
 import java.util.*;
 

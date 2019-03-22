@@ -2,6 +2,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/*
+Sara Zavala 18893
+Hoja de Trabajo 7
+Estructura de Datos
+Binary Tree: Diccionario
+*/
 class TestTest<E> {
 
     @Test
